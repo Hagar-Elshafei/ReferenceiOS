@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='ReferenceiOSUITests.xctest' tests='5' failures='0'>
+  <testsuite name='ReferenceiOSUITests.BDDTest' tests='1' failures='0'>
+    <testcase classname='ReferenceiOSUITests.BDDTest' name='testGenerateInBDDStyle' time='4.362'/>
+  </testsuite>
+  <testsuite name='ReferenceiOSUITests.ReferenceiOSUITests' tests='4' failures='0'>
+    <testcase classname='ReferenceiOSUITests.ReferenceiOSUITests' name='testAppBehaviorAfterRestart' time='10.298'/>
+    <testcase classname='ReferenceiOSUITests.ReferenceiOSUITests' name='testGenerate' time='5.669'/>
+    <testcase classname='ReferenceiOSUITests.ReferenceiOSUITests' name='testGenerateBtnIsClickable' time='5.000'/>
+    <testcase classname='ReferenceiOSUITests.ReferenceiOSUITests' name='testPageElementsExist' time='7.000'/>
+  </testsuite>
+</testsuites>
