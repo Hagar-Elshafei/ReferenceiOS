@@ -18,6 +18,7 @@ class  ReferenceiOSTestBase: XCTestCase {
     override func setUp() {
         super.setUp()
         continueAfterFailure = false
+        setupSnapshot(app)
         app.launch()
     }
     

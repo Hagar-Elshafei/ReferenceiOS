@@ -19,6 +19,7 @@
 		49567A5828B3F80700A7DA3E /* ReferenceiOSUITests_BDD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49567A5728B3F80700A7DA3E /* ReferenceiOSUITests_BDD.swift */; };
 		49567A5A28B408D400A7DA3E /* ReferenceiOSSteps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49567A5928B408D400A7DA3E /* ReferenceiOSSteps.swift */; };
 		49567A5C28B408EF00A7DA3E /* ReferenceiOSElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49567A5B28B408EF00A7DA3E /* ReferenceiOSElements.swift */; };
+		49A540A328BC274600C6A0A2 /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A540A228BC274600C6A0A2 /* SnapshotHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		49567A5728B3F80700A7DA3E /* ReferenceiOSUITests_BDD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferenceiOSUITests_BDD.swift; sourceTree = "<group>"; };
 		49567A5928B408D400A7DA3E /* ReferenceiOSSteps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferenceiOSSteps.swift; sourceTree = "<group>"; };
 		49567A5B28B408EF00A7DA3E /* ReferenceiOSElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferenceiOSElements.swift; sourceTree = "<group>"; };
+		49A540A228BC274600C6A0A2 /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SnapshotHelper.swift; path = fastlane/SnapshotHelper.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +146,7 @@
 			children = (
 				05D03C89224BA0FD005F6F05 /* ReferenceiOSUITests.swift */,
 				49567A5728B3F80700A7DA3E /* ReferenceiOSUITests_BDD.swift */,
+				49A540A228BC274600C6A0A2 /* SnapshotHelper.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -326,6 +329,7 @@
 				05D03C8A224BA0FD005F6F05 /* ReferenceiOSUITests.swift in Sources */,
 				49567A5A28B408D400A7DA3E /* ReferenceiOSSteps.swift in Sources */,
 				49567A5C28B408EF00A7DA3E /* ReferenceiOSElements.swift in Sources */,
+				49A540A328BC274600C6A0A2 /* SnapshotHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

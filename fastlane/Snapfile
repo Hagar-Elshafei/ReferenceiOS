@@ -1,0 +1,19 @@
+ devices([
+   "iPhone 13" 
+ ])
+
+ languages([
+   "en-US"
+ ])
+
+ios_version '15.2'
+
+
+ scheme("ReferenceiOSUITests")
+
+ output_directory("./screenshots")
+
+ clear_previous_screenshots(true)
+
+ override_status_bar(true)
+
